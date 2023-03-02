@@ -28,5 +28,5 @@ title.forEach(img => {
     img.title = img.alt;
 });
 
-var lightbox = new SimpleLightbox('.gallery a',
+const lightbox = new SimpleLightbox('.gallery a',
  { captionsData: 'title',  captionDelay: 250 });
